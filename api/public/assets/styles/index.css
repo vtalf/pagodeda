@@ -1,0 +1,112 @@
+:root {
+    --color-background: #F0F0F7;
+    --color-primary-lighter: #9871F5;
+    --color-primary-light: #916BEA;
+    --color-primary: #8257E5;
+    --color-primary-dark: #774DD6;
+    --color-primary-darker: #6842C2;
+    --color-secundary: #04D361;
+    --color-secundary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #32264D;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #FAFAFC;
+  }
+
+  body{
+      background: url('https://media.giphy.com/media/H68JUE40StnLQw6tOr/giphy.gif');
+      background-size: cover;
+      font-family: 'Archivo Black', sans-serif;
+  }
+
+  form{
+      background-color: var(--color-box-base);
+      border-radius: 8px;
+      margin: 80px auto;
+      padding: 64px;
+      max-width: 900px;
+      box-sizing: border-box;
+  }
+
+  .form-header{
+      color: var(--color-primary-dark);
+  }
+
+  #pagoText{
+      color: var(--color-primary-darker);
+  }
+  
+  .form-header h1{
+      font-size: 70px;
+  }
+
+  .download-form{
+      margin-top: 5rem;
+  }
+
+  .download-form a{
+      background-color: var(--color-secundary);
+
+      padding: 5px;
+
+      height: 30px;
+      width: 30px;
+
+      font-weight: 700;
+      font-size: 30px;
+
+      color: white;
+      text-decoration: none;
+
+      box-sizing: border-box;
+      border-radius: 8px;
+
+      transition: 1s;
+  }
+
+  .download-form a:hover{
+      background: url('https://media.giphy.com/media/b60d0PNX0NPdS/giphy.gif');
+
+      size: 100%;
+  }
+
+  .title{
+      display: flex;
+  }
+
+  .deda{
+      color: var(--color-secundary-dark);
+  }
+
+  #youtube{
+      height: 50px;
+      width: 50px;
+
+      margin-top: 1;
+
+      margin-left: 20px;
+
+      cursor: pointer;
+  }
+
+  .dedinho{
+      border-radius: 10px;
+
+      width: 250px;
+      height: 250px;
+  }
+
+  .logo{
+      width: 100%;
+
+      align-items: center;
+      justify-content: center;
+
+      text-align: center;
+  }
